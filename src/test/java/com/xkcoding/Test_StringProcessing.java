@@ -32,7 +32,7 @@ public class Test_StringProcessing extends TestCase {
 
         String input = "aaa";
         String expected= "";
-        String result = result = processString(input);
+        String result = processString(input);
 
         Assert.assertEquals(expected, result);
     }
