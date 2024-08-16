@@ -67,7 +67,7 @@ public class Test_StringProcessing extends TestCase {
 
     public void test06(){
 
-        // 3 blanks
+       
         String input = "   ";
         String expected= "";
         String result =  processString(input);
@@ -77,7 +77,7 @@ public class Test_StringProcessing extends TestCase {
 
     public void test07(){
 
-        // 3 blanks
+     
         String input = "12345";
         String expected= "12345";
         String result =  processString(input);
@@ -88,7 +88,7 @@ public class Test_StringProcessing extends TestCase {
 
     public void test08(){
 
-        // 3 blanks
+        
         String input = "12233345555";
         String expected= "1224";
         String result =  processString(input);
